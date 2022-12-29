@@ -1,0 +1,56 @@
+body {
+    background-color: rebeccapurple;
+    color: white;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+a {
+    color: orange;
+}
+a:visited {
+    color: orangered;
+}
+
+.cat {
+    width: 320px;
+    height: 319px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.dog {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+}
+
+div {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 30px;
+    border: 10px solid green;
+    width: fit-content;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    border-style: dotted;
+    border-width: 10px;
+    border-radius: 50%;
+    width: fit-content;
+    margin: 50px auto;
+    padding: 20px;
+    font-size: 50px;
+}
